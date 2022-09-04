@@ -1,0 +1,19 @@
+The number of lines in each dose rate data file are equal to the number voxels in the associated structure (tumor, ring or OAR), and each line contains dose rate data of a different voxel over the set of isocenters, collimator sizes and sectors, respectively.
+
+For example, suppose that there are 2 isocenter locations, 3 collimator sizes and 4 sectors. Descriptions of line entries for a fixed line are given below, along with the corresponding dose rate matrix "G" indices in parentheses as "G_l_v_iso_s_k" (to be consistent with the model notation in the paper), where "l" is the structure index, "v" is the index of the voxel in the structure, "iso" is the isocenter location index, "s" is the sector index, and "k" is the collimator size index. Assume structure index l=0, and voxel index v=0.
+
+entry[0]: Dose rate parameter for isocenter with index 0, collimator size with index 0, and sector with index 0 ( G_0_0_0_0_0 )
+entry[1]: Dose rate parameter for isocenter with index 0, collimator size with index 0, and sector with index 1 ( G_0_0_0_1_0 )
+entry[2]: Dose rate parameter for isocenter with index 0, collimator size with index 0, and sector with index 2 ( G_0_0_0_2_0 )
+entry[3]: Dose rate parameter for isocenter with index 0, collimator size with index 0, and sector with index 3 ( G_0_0_0_3_0 )
+entry[4]: Dose rate parameter for isocenter with index 0, collimator size with index 1, and sector with index 0 ( G_0_0_0_0_1 )
+entry[5]: Dose rate parameter for isocenter with index 0, collimator size with index 1, and sector with index 1 ( G_0_0_0_1_1 )
+entry[6]: Dose rate parameter for isocenter with index 0, collimator size with index 1, and sector with index 2 ( G_0_0_0_2_1 )
+...
+entry[12]: Dose rate parameter for isocenter with index 1, collimator size with index 0, and sector with index 0 ( G_0_0_1_0_0 )
+entry[13]: Dose rate parameter for isocenter with index 1, collimator size with index 0, and sector with index 1 ( G_0_0_1_1_0 )
+entry[14]: Dose rate parameter for isocenter with index 1, collimator size with index 0, and sector with index 2 ( G_0_0_1_2_0 )
+entry[15]: Dose rate parameter for isocenter with index 1, collimator size with index 0, and sector with index 3 ( G_0_0_1_3_0 )
+entry[16]: Dose rate parameter for isocenter with index 1, collimator size with index 1, and sector with index 0 ( G_0_0_1_0_1 )
+...
+entry[23]: Dose rate parameter for isocenter with index 1, collimator size with index 2, and sector with index 3 ( G_0_0_1_3_2 )

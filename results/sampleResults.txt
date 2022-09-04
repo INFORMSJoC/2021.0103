@@ -1,0 +1,73 @@
+---------------------------------------------------------------------------------------
+---------- Sample result from Cevik et al (2019)'s single-objective model -------------
+---------------------------------------------------------------------------------------
+Setting objective weights as
+
+Weight for total underdose to the tumors: 50,
+Weight for total overdose to the tumors: 0.5,
+Weight for total dose and overdose to the rings: 0.4,
+Weight for total dose and overdose to OAR1: 0.333333,
+Weight for total dose and overdose to OAR2: 1,
+Weight for beam-on time (BOT): 1.75,
+
+we obtain the following values for clinical metrics:
+
+Tumor coverage: 1
+PCI: 0.741
+BOT: 19.3 minutes
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+
+
+***********************************************
+***************** MOP-RELATED *****************
+***********************************************
+
+Objectives of the MOP:
+h_1: Total overdose to the rings
+h_2: Total dose to the OARs and rings
+h_3: Total overdose to the tumors
+h_4: Total underdose to the tumors
+h_5: Beam-on time (BOT)
+
+We used h_1 as the objective function in our epsilon-constraint model, while constraining the remaining ones with upper bounds (UBs).
+
+---------------------------------------------------------------------------------------
+------------------------------- Sample MOP result 1 -----------------------------------
+---------------------------------------------------------------------------------------
+Setting upper bound parameters as
+
+UB for h_2: 363.253,
+UB for h_3: 0,
+UB for h_4: 0,
+UB for h_5: 23.4065,
+
+we obtain the following values for clinical metrics:
+
+Tumor coverage: 1
+PCI: 0.8696
+BOT: 20.5567 minutes
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+------------------------------- Sample MOP result 2 -----------------------------------
+---------------------------------------------------------------------------------------
+Setting upper bound parameters as
+
+UB for h_2: 467.04,
+UB for h_3: 0,
+UB for h_4: 0,
+UB for h_5: 18.7873,
+
+we obtain the following values for clinical metrics:
+
+Tumor coverage: 1
+PCI: 0.8333
+BOT: 18.7873 minutes
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------

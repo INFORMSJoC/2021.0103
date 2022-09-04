@@ -1,0 +1,5 @@
+Prescribed dose for tumor: 12 Gy
+Max dose for tumor: 24 Gy
+Max dose for ring: 12 Gy
+Max dose for OAR1: 15 Gy
+Max dose for OAR2: 11.5 Gy
