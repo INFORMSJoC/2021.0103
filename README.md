@@ -2,7 +2,7 @@
 
 This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [CC BY License](LICENSE).
 
-This repository contains supporting material for the paper [A Multiobjective Approach for Sector Duration Optimization in Stereotactic Radiosurgery Treatment Planning](https://doi.org/????) by O. Şeker and M. Cevik and M. Bodur and Y. Lee and M. Ruschin.
+This repository contains supporting material for the paper [A Multiobjective Approach for Sector Duration Optimization in Stereotactic Radiosurgery Treatment Planning](https://doi.org/????) by O. Şeker, M. Cevik, M. Bodur, Y. Lee, and M. Ruschin.
 
 
 ## Cite
@@ -16,7 +16,7 @@ Below is the BibTex for citing the data.
 
 ```
 @article{Data_SDO,
-author =        {O. Şeker and M. Cevik and M. Bodur and Y. Lee and M. Ruschin},
+author =        {{\c{S}}eker, Oylum and Cevik, Mucahit and Bodur, Merve and Lee, Young and Ruschin, Mark},
 publisher =     {INFORMS Journal on Computing},
 title =         {Data for Sector Duration Optimization in Stereotactic Radiosurgery Treatment Planning},
 year =          {2022},
@@ -29,7 +29,7 @@ url =           {https://github.com/INFORMSJoC/2021.0103},
 
 This repository includes
 
-1. A synthetic problem instance for sector duration optimization (actual patient data used in the paper is not shared due to privacy concerns)
+1. A synthetic test instance for sector duration optimization (actual patient data used in the paper is not shared due to privacy concerns)
 1. A file describing instance data format  
 1. A file containing sample results for the provided instance
 
@@ -50,6 +50,4 @@ Instance data files are located in the folder [data](data). The folder contains 
 The folder [docs](docs) contains a text file [dataFormat.txt](docs/dataFormat.txt) that describes the format of the instance data files.
 
 ### Results
-The file [sampleResults.txt](results/sampleResults.txt) in the folder [results](results) contains sample results for the problem instance provided in this repository, both from the weighted-objective SDO model by [Cevik et al. (2019)](https://doi.org/10.1088/1361-6560/aaf7ce) and from our multiobjective model.
-
-
+The file [sampleResults.txt](results/sampleResults.txt) in the folder [results](results) contains sample results for the test instance provided in this repository, both from the weighted-objective SDO model by [Cevik et al. (2019)](https://doi.org/10.1088/1361-6560/aaf7ce) and from our multiobjective model.
