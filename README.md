@@ -2,7 +2,7 @@
 
 This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [CC BY License](LICENSE).
 
-This repository contains supporting material for the paper [A Multiobjective Approach for Sector Duration Optimization in Stereotactic Radiosurgery Treatment Planning](https://doi.org/????) by O. Şeker, M. Cevik, M. Bodur, Y. Lee, and M. Ruschin.
+This repository contains supporting material for the paper [A Multiobjective Approach for Sector Duration Optimization in Stereotactic Radiosurgery Treatment Planning](https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1252) by O. Şeker, M. Cevik, M. Bodur, Y. Lee, and M. Ruschin.
 
 
 ## Cite
