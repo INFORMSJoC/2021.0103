@@ -7,9 +7,7 @@ This repository contains supporting material for the paper [A Multiobjective App
 
 ## Cite
 
-To cite this data, please cite the [research article](https://doi.org/10.1287/????) and the data itself, using the following DOI.
-
-[![DOI](https://zenodo.org/badge/524492449.svg)](https://zenodo.org/badge/latestdoi/524492449)
+To cite this data, please cite the [research article](https://doi.org/10.1287/2022.1252) and the data itself, using the following DOI: [https://doi.org/10.1287/ijoc.2022.1252.cd](https://doi.org/10.1287/ijoc.2022.1252.cd)
 
 
 Below is the BibTex for citing the data.
@@ -20,7 +18,7 @@ author =        {{\c{S}}eker, Oylum and Cevik, Mucahit and Bodur, Merve and Lee,
 publisher =     {INFORMS Journal on Computing},
 title =         {Data for Sector Duration Optimization in Stereotactic Radiosurgery Treatment Planning},
 year =          {2022},
-doi =           {10.5281/zenodo.7048848},
+doi =           {10.1287/ijoc.2022.1252.cd},
 url =           {https://github.com/INFORMSJoC/2021.0103},
 }  
 ```
